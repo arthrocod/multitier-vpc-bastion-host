@@ -18,7 +18,7 @@ variable "ibm_region" {
 
 variable "resource_group_name" {
   description = "Name of IBM Cloud Resource Group used for all VPC resources"
-  default     = "Default"
+  default     = "psm-uk-resource-group"
 }
 
 # #Only tested with Gen2. Gen1 requires changes to images, profile names and some VPC resources 
